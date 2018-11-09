@@ -1,0 +1,23 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    width: 50%;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.8;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    }
+h2 {
+    font-family: 'Arvo', serif;
+    font-weight: normal;
+    font-size: 1.5em;
+}
