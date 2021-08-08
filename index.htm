@@ -10,37 +10,56 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="_css\style_sheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header role="banner">
         <h1>Balaji Iyer</h1>
         <h2>My Web-Portfolio</h2>
-        <nav role="navigation">
-            <h3>
-                Home
-                Portfolio
-                About
-                Connect
-            </h3>
+        <nav class="navbar navbar-expand-xl bg-secondary navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Iyer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link active" aria-current="page" href="../index.htm">Home</a>
+                        <a class="nav-item nav-link" href="/projects/projects.htm">Projects</a>
+                        <a class="nav-item nav-link" href="#">About</a>
+                        <a class="nav-item nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main role="main">
-        <p>Hi! I am Iyer - a 25 year old technophile, brought up in New Delhi, India. I am currently an embedded
-            electronics engineer at Citilight, India. I am always eager to know how things work and love to inquire,
-            research and
-            ask a lot of questions. Get to know more about me and what I have been upto.</p>
+        <div class="container">
+            <p>Hi! I am Iyer - a 25 year old technophile, brought up in New Delhi, India. I am currently an embedded
+                electronics engineer at Citilight, India. I am always eager to know how things work and love to inquire,
+                research and
+                ask a lot of questions. Get to know more about me and what I have been upto.</p>
+        </div>
     </main>
 
     <footer role="contentinfo">
-        <center><img src="_images\logo\fb.png" alt="[F]" width="40" height="40"> | <img src="_images\logo\insta.png"
-                alt="[I]" width="40" height="40"> | <img src="_images\logo\lin.png" alt="[in]" width="40" height="40">
-        </center>
-        <center><br>Navigate:
-            <h4>Home | Portfolio | About | Connect</h4>
-        </center>
-        <br>
-        <h5>&copy 2018-19 | iyer3142.com | Balaji Iyer</h5>
+        <div id="footer">
+            <center><img src="_images\logo\fb.png" alt="[F]" width="40" height="40"> | <img src="_images\logo\insta.png"
+                    alt="[I]" width="40" height="40"> | <img src="_images\logo\lin.png" alt="[in]" width="40"
+                    height="40">
+            </center>
+            <center><br>Navigate:
+                <h4>Home | Projects | About | Connect</h4>
+            </center>
+            <br>
+            <h5>&copy 2018-19 | iyer3142.com | Balaji Iyer</h5>
+        </div>
     </footer>
 </body>
 

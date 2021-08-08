@@ -1,7 +1,12 @@
-
+/*body {
+    width: 70%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+}
+*/
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     width: 100%;
     margin: 0;
     text-align: justify;
@@ -25,4 +30,24 @@ h2 {
             /* Height of the footer*/ 
             height: 150px;
             background:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 50px;
+}
+li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.nav-link active {
+padding-left: 100px;
+padding-right: 15px;
 }
