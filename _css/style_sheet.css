@@ -12,29 +12,35 @@ body {
     min-height: 55vh;
     padding-bottom: 5%;
     scroll-snap-type: y mandatory; 
-    background-color:#F4F9F9;
+    background-color:#EFF8FF;
+    
     
 }
 
 .proj {
   min-height:70vh;
   max-height: inherit;
-  padding-top: 20vh;
+  padding-top: 10vh;
   align-content: center; 
   vertical-align:inherit;
   
 }
+#projects .portfolio-item{
+text-align: center;
+padding-top: 70px;
+padding-bottom: 70px;
+}
 .me {
   min-height:70vh;
-  padding-top: 20vh;
+  padding-top: 15vh;
     scroll-snap-type: y mandatory;
-    margin-bottom: 40vh; 
+    margin-bottom: 30vh; 
     margin-bottom:auto; 
-    background-color:#F4F9F9;
+    background-color:#EFF8FF;
 }
 .Contactme {
     min-height:60vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
     scroll-snap-type: y mandatory;
       
 }
@@ -56,19 +62,19 @@ h2 {
     font-weight: normal;
     font-size: 1.5vw;
 }
-#footer {
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 5px;
+    min-height: 5vl;
+}
+footer {
     position:relative;
             padding: 10px 10px 0px 10px;
             bottom: 0;
             
-            /* Height of the footer*/ 
-            height: 150px;
-            background:grey;
+            background:#EFF8FF;
 }
 
-#projects .portfolio-item{
-text-align: center;
-padding-top: 70px;
-padding-bottom: 70px;
-}
+
 
