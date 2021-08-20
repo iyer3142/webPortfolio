@@ -25,11 +25,11 @@ header {
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6vw;
+    font-size: 3vh;
     width: 100%;
     margin: 0;
     text-align: justify;
-    line-height: inherit;
+ 
 }
 h1 {
     font-family: 'Roboto', sans-serif;
