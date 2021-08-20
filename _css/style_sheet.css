@@ -1,7 +1,6 @@
 
 html, body { 
     padding-top: 100px; 
-    height:100%;
 }
 header {
     height: 100vh;
@@ -35,12 +34,12 @@ p {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 3em;
+    font-size: 3vw;
     }
 h2 {
     font-family: 'Arvo', serif;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.5vw;
 }
 #footer {
     position:relative;
@@ -49,7 +48,7 @@ h2 {
             
             /* Height of the footer*/ 
             height: 150px;
-            background:white;
+            background:grey;
 }
 
 #projects .portfolio-item{
