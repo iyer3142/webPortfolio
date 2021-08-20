@@ -3,29 +3,29 @@ html, body {
     padding-top: 100px; 
 }
 header {
-    height: 100vh;
+    height: 50vh;
     
 }
 .topshit {
-  height:100vh;
+  height:50vh;
     scroll-snap-type: y mandatory;
 }
 .proj {
-  height:100vh;
+  height:50vh;
     scroll-snap-type: y mandatory;
   
 }
 .me {
-  height:100vh;
+  height:50vh;
     scroll-snap-type: y mandatory;
 }
 .Contactme {
-    height:100vh;
+    height:70vh;
       scroll-snap-type: y mandatory;
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.6vw;
     width: 100%;
     margin: 0;
     text-align: justify;
