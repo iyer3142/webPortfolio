@@ -4,8 +4,7 @@ body {
 }
 .navbar {
     color: #3A6351;
-    font-size: 2vh;
-    
+    font-size: 3vh;    
 }
 .topshit {
     margin-top: 10vh;
@@ -13,7 +12,7 @@ body {
     min-height: 55vh;
     padding-bottom: 5%;
     scroll-snap-type: y mandatory; 
-    background-color:#F2EDD7;
+    background-color:#F4F9F9;
     
 }
 
@@ -31,7 +30,7 @@ body {
     scroll-snap-type: y mandatory;
     margin-bottom: 40vh; 
     margin-bottom:auto; 
-    background-color:#5F939A;
+    background-color:#F4F9F9;
 }
 .Contactme {
     min-height:60vh;
