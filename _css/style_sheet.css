@@ -6,6 +6,7 @@ body {
     color: #3A6351;
     font-size: 3vh;    
     background-color: white;
+    opacity: 0.8;
 }
 .topshit {
     margin-top: 10vh;
@@ -17,10 +18,14 @@ body {
     
     
 }
-
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 .proj {
   min-height:70vh;
   max-height: inherit;
+  
   padding-top: 10vh;
   align-content: center; 
   vertical-align:inherit;
@@ -30,7 +35,10 @@ body {
 text-align: center;
 padding-top: 70px;
 padding-bottom: 70px;
+
 }
+
+
 .me {
   min-height:70vh;
   padding-top: 15vh;
