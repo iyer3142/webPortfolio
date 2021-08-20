@@ -3,24 +3,24 @@ html, body {
     padding-top: 100px; 
 }
 header {
-    height: 50vh;
+    height: 100vh;
     
 }
 .topshit {
-  height:50vh;
+  height:100vh;
     scroll-snap-type: y mandatory;
 }
 .proj {
-  height:50vh;
+  height:100vh;
     scroll-snap-type: y mandatory;
   
 }
 .me {
-  height:50vh;
+  height:100vh;
     scroll-snap-type: y mandatory;
 }
 .Contactme {
-    height:70vh;
+    height:100vh;
       scroll-snap-type: y mandatory;
 }
 p {
