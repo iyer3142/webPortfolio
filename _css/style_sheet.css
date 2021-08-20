@@ -3,25 +3,31 @@ html, body {
     padding-top: 5%; 
 }
 header {
-    height: 100vh;
+    height: 70vh;
+  padding-bottom: 10vw;
+    scroll-snap-type: y mandatory; 
     
 }
 .topshit  {
-  height:100vh;
-    scroll-snap-type: y mandatory;   
+  
 }
 .proj {
-  height:100vh;
+  height:40vh;
+  padding-bottom: 10vh; 
+  align-content: center; 
+  padding-top: 5vh;
     scroll-snap-type: y mandatory;
   
 }
 .me {
   height:100vh;
     scroll-snap-type: y mandatory;
+    padding-bottom: 40vh; padding-top: 5vh;
 }
 .Contactme {
     height:100vh;
       scroll-snap-type: y mandatory;
+      padding-bottom: 40vh; padding-top: 5vh;
 }
 p {
     font-family: 'Montserrat', sans-serif;
