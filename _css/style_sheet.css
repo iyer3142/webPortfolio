@@ -1,18 +1,15 @@
 
-html, body { 
-    padding-top: 5%; 
-}
 header {
-    height: 70vh;
+    padding-top: 5%; 
+    min-height: 60vh;
+    
   padding-bottom: 10vw;
     scroll-snap-type: y mandatory; 
     
 }
-.topshit  {
-  
-}
+
 .proj {
-  height:40vh;
+  min-height:inherit;
   padding-bottom: 10vh; 
   align-content: center; 
   padding-top: 5vh;
@@ -20,12 +17,12 @@ header {
   
 }
 .me {
-  height:100vh;
+  min-height:100vh;
     scroll-snap-type: y mandatory;
     padding-bottom: 40vh; padding-top: 5vh;
 }
 .Contactme {
-    height:100vh;
+    min-height:100vh;
       scroll-snap-type: y mandatory;
       padding-bottom: 40vh; padding-top: 5vh;
 }
