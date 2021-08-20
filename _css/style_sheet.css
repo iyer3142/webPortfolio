@@ -5,6 +5,7 @@ body {
 .navbar {
     color: #3A6351;
     font-size: 3vh;    
+    background-color: white;
 }
 .topshit {
     margin-top: 10vh;
@@ -60,7 +61,7 @@ h1 {
 h2 {
     font-family: 'Arvo', serif;
     font-weight: normal;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 h5 {
     font-family: 'Roboto', sans-serif;
