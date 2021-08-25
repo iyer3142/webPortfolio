@@ -24,21 +24,23 @@ a.disabled {
   cursor: default;
 }
 .proj {
+    
   min-height:70vh;
+  
   max-height: inherit;
-  
   padding-top: 10vh;
-  align-content: center; 
-  vertical-align:inherit;
-  
-}
-#projects .portfolio-item{
-text-align: center;
-padding-top: 70px;
-padding-bottom: 70px;
-
+  align-content: center;
 }
 
+
+.folio-item {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px; 
+    
+}
 .scroller {
     height: 100vh;
     overflow-y:scroll;
