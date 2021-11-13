@@ -6,25 +6,6 @@
     <meta name="description" content="Balaji Iyer | Welcome to my Web-Portfolio">
     <title>Iyer, Balaji</title>
     <meta name="author" content="Balaji Iyer">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RH3TL68JLL"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-RH3TL68JLL');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-M3MSL2J');</script>
-    <!-- End Google Tag Manager -->
 
     <link rel="stylesheet" href="_css\style_sheet.css">
     <link rel="icon" type="png" href="/_images/favi.png" />
@@ -41,228 +22,222 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3MSL2J" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <article class="scroller">
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 top-0 left-0">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbar_robot_toggler" aria-controls="navbar_robot_toggler"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-brand" style="font-size: 3vh; ">Iyer, Balaji</div>
-                    <div class="collapse navbar-collapse" id="navbar_robot_toggler">
-                        <div class="navbar-nav  ms-auto" style="--bs-scroll-height: 150px;">
-                            <a class="nav-item nav-link " aria-current="page" href=".#folio">Home</a>
-                            <a class="nav-item nav-link" href="#proj" style="margin-left: 20px;">Projects</a>
-                            <a class="nav-item nav-link" href="#me" style="margin-left: 20px;">About</a>
-                            <a class="nav-item nav-link" href="#contact" style="margin-left: 20px;">Contact</a>
-                        </div>
+
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 top-0 left-0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar_robot_toggler" aria-controls="navbar_robot_toggler" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-brand" style="font-size: 3vh; ">Iyer, Balaji</div>
+                <div class="collapse navbar-collapse" id="navbar_robot_toggler">
+                    <div class="navbar-nav  ms-auto" style="--bs-scroll-height: 150px;">
+                        <a class="nav-item nav-link " aria-current="page" href=".#folio">Home</a>
+                        <a class="nav-item nav-link" href="#proj" style="margin-left: 20px;">Projects</a>
+                        <a class="nav-item nav-link" href="#me" style="margin-left: 20px;">About</a>
+                        <a class="nav-item nav-link" href="#contact" style="margin-left: 20px;">Contact</a>
                     </div>
                 </div>
-            </nav>
-            <header role="banner">
-                <div class="topshit" id="folio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <center><img class="rounded-circle img-fluid" width="300vw" src="_images\iyer.jpeg"
-                                        alt="[Profile_pic]" style="padding-top: 2vh;">
-                                    <h1 style="padding-top: 5vh;">Iyer</h1>
-                                    <h2>Embedded R&D engineer<br>currently working at <a href="http://citilight.co">
-                                            Citilight</a>, India.</h2>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </section>
-        <section>
-            <div class="proj" id="proj">
+            </div>
+        </nav>
+        <header role="banner">
+            <div class="topshit" id="folio">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>Projects</h2>
-                            <hr>
-                        </div>
-                    </div>
-
-                    <div class="card-deck">
-                        <div class="row">
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/lgate.jpg" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">LoRaWAN Gateway</h5>
-                                    <h6 class="card-text">Developed a LoRaWAN gateway using Raspberry Pi and RAK gateway
-                                        concentrator for smart-city projects that controlled LoRa
-                                        end-nodes in smart streetlights. Deployed in-premises Application server &
-                                        Network server to manage data frames from the
-                                        gateway.</h6>
-                                </div>
-                            </div>
-
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/gsm.jpg" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">GSM Module Integration</h5>
-                                    <h6 class="card-text">Interfaced a 2G GSM module (like SIM800) using AT commands
-                                        over UART with a
-                                        controller for a Remote Terminal Unit, used in smart
-                                        street Lighting Feeder Panels.</h6>
-                                </div>
-                            </div>
-
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/hrm.jpg" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">COVID-19 Access Control HRM Device</h5>
-                                    <h6 class="card-text">Designed electronics circuitry and modelled 3D drawing for
-                                        plastic injection-moulding to build an HRM tool that
-                                        recognises by face, measures temperature contactlessly (using MLX906) marks
-                                        attendance and grants entry by unlocking a
-                                        door.</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/loradtds.jpg" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">LoRa Module Integration</h5>
-                                    <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea commodo consequat</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/homebot.png" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">HomeBot</h5>
-                                    <h6 class="card-text">Designed a system to monitor and control domestic electrical
-                                        appliances wirelessly over the internet using a web
-                                        application, to automate processes like water tank management. Developed a fully
-                                        in-house web-application using HTML,
-                                        CSS and Javascript and made electrical connections with a relay board.</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm card folio-item">
-                                <img class="card-img-top img-responsive" src="/_images/proj_logos/webport.png" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Web-Portfolio</h5>
-                                    <h6 class="card-text">A repository for my online web-portfolio (this web-site),
-                                        completely
-                                        open-source :) Discovered the joy of coding a web-site by hand using HTML, CSS,
-                                        Bootstrap and a tiny-bit of Javascript. Great learning curve and high dopamine
-                                        activity!</h6>
-                                </div>
-                            </div>
-
-
+                        <div class="col-lg-12">
+                            <center><img class="rounded-circle img-fluid" width="300vw" src="_images\iyer.jpeg"
+                                    alt="[Profile_pic]" style="padding-top: 2vh;">
+                                <h1 style="padding-top: 5vh;">Iyer</h1>
+                                <h2>Embedded R&D engineer<br>currently working at <a href="http://citilight.co">
+                                        Citilight</a>, India.</h2>
+                            </center>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
-        <section>
-            <div class="me" id="me">
-                <div class="container">
+        </header>
+    </section>
+    <section>
+        <div class="proj" id="proj">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Projects</h2>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="card-deck">
                     <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>About me</h2>
-                            <hr>
-                            <main role="main">
-                                <div class="container-md">
-                                    <p>Hi! I am Iyer - a 25 year old technophile, brought up in New Delhi, India. I
-                                        am
-                                        currently
-                                        an embedded
-                                        electronics engineer at Citilight, India. I am always eager to know how
-                                        things
-                                        work
-                                        and
-                                        love to inquire,
-                                        research and
-                                        ask a lot of questions. Get to know more about me and what I have been upto.
-                                    </p>
-                                </div>
-                            </main>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <div class="Contactme" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>Connect with me</h2>
-                            <hr>
-                            <div class="container">
-                                <form action="/action_page.php">
-                                    <div class="row">
-
-                                        <div class="col-75">
-                                            <input type="text" id="fname" name="name"
-                                                style="width: 50vw; margin-bottom: 2vh;" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-
-                                        <div class="col-75">
-                                            <input type="text" id="fmail" name="email"
-                                                style="width: 50vw; margin-bottom: 2vh" placeholder="E-mail">
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-
-                                        <div class="col-75">
-                                            <textarea id="subject" name="subject"
-                                                placeholder="Write your message here..."
-                                                style="height:200px; width: 50vw;"></textarea>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col-75">
-                                            <button type=" " class="button1" disabled
-                                                <placeholder="Submit">Submit</button>
-                                        </div>
-                                    </div>
-                                </form>
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/lgate.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">LoRaWAN Gateway</h5>
+                                <h6 class="card-text">Developed a LoRaWAN gateway using Raspberry Pi and RAK gateway
+                                    concentrator for smart-city projects that controlled LoRa
+                                    end-nodes in smart streetlights. Deployed in-premises Application server &
+                                    Network server to manage data frames from the
+                                    gateway.</h6>
                             </div>
-
                         </div>
+
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/gsm.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">GSM Module Integration</h5>
+                                <h6 class="card-text">Interfaced a 2G GSM module (like SIM800) using AT commands
+                                    over UART with a
+                                    controller for a Remote Terminal Unit, used in smart
+                                    street Lighting Feeder Panels.</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/hrm.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">COVID-19 Access Control HRM Device</h5>
+                                <h6 class="card-text">Designed electronics circuitry and modelled 3D drawing for
+                                    plastic injection-moulding to build an HRM tool that
+                                    recognises by face, measures temperature contactlessly (using MLX906) marks
+                                    attendance and grants entry by unlocking a
+                                    door.</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/loradtds.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">LoRa Module Integration</h5>
+                                <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                    ut aliquip ex ea commodo consequat</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/homebot.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">HomeBot</h5>
+                                <h6 class="card-text">Designed a system to monitor and control domestic electrical
+                                    appliances wirelessly over the internet using a web
+                                    application, to automate processes like water tank management. Developed a fully
+                                    in-house web-application using HTML,
+                                    CSS and Javascript and made electrical connections with a relay board.</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm card folio-item">
+                            <img class="card-img-top img-responsive" src="/_images/proj_logos/webport.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Web-Portfolio</h5>
+                                <h6 class="card-text">A repository for my online web-portfolio (this web-site),
+                                    completely
+                                    open-source :) Discovered the joy of coding a web-site by hand using HTML, CSS,
+                                    Bootstrap and a tiny-bit of Javascript. Great learning curve and high dopamine
+                                    activity!</h6>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-
-        <footer role="contentinfo">
-            <div id="foot">
-                <center><img src="_images\logo\fb.png" alt="[F]" width="40" height="40"> | <img
-                        src="_images\logo\insta.png" alt="[I]" width="40" height="40"> | <img src="_images\logo\lin.png"
-                        alt="[in]" width="40" height="40">
-                </center>
-                <center>
-                    <br>
-                    <h5>&copy 2018-21 | iyer.netlify.com | Balaji Iyer</h5>
-                </center>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="me" id="me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About me</h2>
+                        <hr>
+                        <main role="main">
+                            <div class="container-md">
+                                <p>Hi! I am Iyer - a 25 year old technophile, brought up in New Delhi, India. I
+                                    am
+                                    currently
+                                    an embedded
+                                    electronics engineer at Citilight, India. I am always eager to know how
+                                    things
+                                    work
+                                    and
+                                    love to inquire,
+                                    research and
+                                    ask a lot of questions. Get to know more about me and what I have been upto.
+                                </p>
+                            </div>
+                        </main>
+                    </div>
+                </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="Contactme" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Connect with me</h2>
+                        <hr>
+                        <div class="container">
+                            <form action="/action_page.php">
+                                <div class="row">
+
+                                    <div class="col-75">
+                                        <input type="text" id="fname" name="name"
+                                            style="width: 50vw; margin-bottom: 2vh;" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-75">
+                                        <input type="text" id="fmail" name="email"
+                                            style="width: 50vw; margin-bottom: 2vh" placeholder="E-mail">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-75">
+                                        <textarea id="subject" name="subject" placeholder="Write your message here..."
+                                            style="height:200px; width: 50vw;"></textarea>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-75">
+                                        <button type=" " class="button1" disabled <placeholder="Submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer role="contentinfo">
+        <div id="foot">
+            <center><img src="_images\logo\fb.png" alt="[F]" width="40" height="40"> | <img src="_images\logo\insta.png"
+                    alt="[I]" width="40" height="40"> | <img src="_images\logo\lin.png" alt="[in]" width="40"
+                    height="40">
+            </center>
+            <center>
+                <br>
+                <h5>&copy 2018-21 | iyer.netlify.com | Balaji Iyer</h5>
+            </center>
+        </div>
+    </footer>
     </article>
 </body>
 
