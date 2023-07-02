@@ -23,6 +23,7 @@ body {
     /* background-color: #EFF8FF; */
     background-image: url('../_images/web-bg3.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -103,13 +104,12 @@ a.disabled {
 .Contactme {
     min-height: 60vh;
     padding-top: 10vh;
-
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 3vh;
+    font-size: 1.7em;
     width: 100%;
     margin: 0;
     text-align: justify;
@@ -117,31 +117,35 @@ p {
 }
 
 .profile-thumbnail{
-    /* padding-top: 2vh;  */
+    padding-top: 3em; 
     padding-bottom:8vh;
 }
 
 .blur-bg {
     backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
-    background-color: rgba(255, 255, 255, 0.473);
-    width: 65%;
+    background-color: rgba(255, 255, 255, 0.637);
+    width: 70%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 5vh;
+    /* font-size: 5vh; */
     /* backdrop-filter: blur(8px); Adjust the blur amount as needed */
-    padding-top: 2vh;
+    
    
 }
 
 h2 {
     font-family: 'Arvo', serif;
     font-weight:bolder;
-    font-size: 1.3vh;
-    padding-bottom: 2vh;
+    /* font-size: 1.3em; */
+   
     color: #3A6351;
     /* backdrop-filter: blur(8px); Adjust the blur amount as needed */
     
