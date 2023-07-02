@@ -18,10 +18,13 @@ body {
 
 .topshit {
     padding-top: 13%;
-    min-height: 55vh;
+    min-height: 100vh;
     padding-bottom: 5%;
-    background-color: #EFF8FF;
+    /* background-color: #EFF8FF; */
+    background-image: url('../_images/web-bg3.jpg');
+    background-size: cover;
 }
+
 
 a.disabled {
     pointer-events: none;
@@ -101,7 +104,6 @@ a.disabled {
     min-height: 60vh;
     padding-top: 10vh;
 
-
 }
 
 p {
@@ -114,22 +116,42 @@ p {
 
 }
 
+.profile-thumbnail{
+    /* padding-top: 2vh;  */
+    padding-bottom:8vh;
+}
+
+.blur-bg {
+    backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
+    background-color: rgba(255, 255, 255, 0.473);
+    width: 65%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 5vh;
+    /* backdrop-filter: blur(8px); Adjust the blur amount as needed */
+    padding-top: 2vh;
+   
 }
 
 h2 {
     font-family: 'Arvo', serif;
-    font-weight: normal;
+    font-weight:bolder;
     font-size: 1.3vh;
+    padding-bottom: 2vh;
+    color: #3A6351;
+    /* backdrop-filter: blur(8px); Adjust the blur amount as needed */
+    
+    
 }
 
 h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 5px;
+    font-size: 1%;
     min-height: 5vl;
 }
 
