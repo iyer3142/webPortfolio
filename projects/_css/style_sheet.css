@@ -1,0 +1,51 @@
+/*body {
+    width: 70%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+}
+*/
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.8;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    }
+h2 {
+    font-family: 'Arvo', serif;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+#footer {
+    position:relative;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            
+            /* Height of the footer*/ 
+            height: 150px;
+            background:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 50px;
+}
+li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+
